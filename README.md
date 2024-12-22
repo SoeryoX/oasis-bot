@@ -17,6 +17,8 @@ AI inference powered by distributed compute
 
 - **Support Proxy**
 
+- **Support NoProxy**
+
 ## Requirements
 
 - **Node.js**: Ensure you have Node.js installed.
@@ -69,6 +71,12 @@ so if you want create multiple providers you need to put multiple proxy there.
 7. Additional feature auto refferal
    ```bash
    npm run autoreff
+   ```
+8. For No proxy
+make sure you have created providers(get token) `npm run setup`
+
+    ```bash
+   node noproxy.js
    ```
 
 ## ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
